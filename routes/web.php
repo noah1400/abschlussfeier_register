@@ -16,7 +16,7 @@ use App\Models\Registration;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return abort(404);
 });
 
 Route::get('/dashboard', function () {
